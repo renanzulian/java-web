@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Sales currency="BRL" xsi:noNamespaceSchemaLocation="format.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Sales currency="BRL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="format.xsd">
     <Products>
         <Product>
             <Name>Java EE Course</Name>
