@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Sales>
+    <Products>
+        <Product>
+            <Name>Java EE Course</Name>
+            <Price>19.90</Price>
+        </Product>
+        <Product>
+            <Name>Dell XPS 15'</Name>
+            <Price>1299.00</Price>
+        </Product>
+        <Product>
+            <Name>Logitech Master 3</Name>
+            <Price>99.90</Price>
+        </Product>
+        <Payment>
+            <Method>Credit Card</Method>
+        </Payment>
+    </Products>
+</Sales>
