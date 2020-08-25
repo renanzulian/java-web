@@ -19,9 +19,10 @@ public class MainSystem {
         NodeList prices = document.getElementsByTagName("Price");
 
         for (int i = 0; i < productsName.getLength(); i++) {
-            Element nameElement = (Element) productsName.item(i);
-            Element priceElement = (Element) prices.item(i);
-            System.out.println(nameElement.getTextContent() + " is " + priceElement.getTextContent() + "US");
+            Element name = (Element) productsName.item(i);
+            Element price = (Element) prices.item(i);
+            Product product = new Product(name.getTextContent(), Double.parseDouble(price.getTextContent()));
+            System.out.println(product);
         }
 
     }
