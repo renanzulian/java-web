@@ -1,5 +1,6 @@
-package com.renanzulian.xmlproject;
+package com.renanzulian.xmlproject.handlers;
 
+import com.renanzulian.xmlproject.models.Product;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -7,7 +8,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyXmlReader extends DefaultHandler {
+public class ProductHandlerXML extends DefaultHandler {
 
     private List<Product> products = new ArrayList<>();
     private Product currentProduct;

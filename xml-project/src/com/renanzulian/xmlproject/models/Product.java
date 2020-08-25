@@ -1,4 +1,4 @@
-package com.renanzulian.xmlproject;
+package com.renanzulian.xmlproject.models;
 
 import java.text.NumberFormat;
 

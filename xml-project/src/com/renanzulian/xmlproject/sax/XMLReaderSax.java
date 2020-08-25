@@ -1,5 +1,6 @@
-package com.renanzulian.xmlproject;
+package com.renanzulian.xmlproject.sax;
 
+import com.renanzulian.xmlproject.handlers.ProductHandlerXML;
 import org.xml.sax.InputSource;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
@@ -7,11 +8,11 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-public class XmlServerReader {
+public class XMLReaderSax {
     public static void main(String[] args) throws Exception {
         XMLReader reader = XMLReaderFactory.createXMLReader();
 
-        MyXmlReader xmlReader = new MyXmlReader();
+        ProductHandlerXML xmlReader = new ProductHandlerXML();
         reader.setContentHandler(xmlReader);
 
         InputStream inputStream = new FileInputStream("src/sales.xml");
