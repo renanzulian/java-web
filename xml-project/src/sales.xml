@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Sales>
+<Sales currency="BRL" xsi:noNamespaceSchemaLocation="format.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Products>
         <Product>
             <Name>Java EE Course</Name>
@@ -13,8 +13,5 @@
             <Name>Logitech Master 3</Name>
             <Price>99.90</Price>
         </Product>
-        <Payment>
-            <Method>Credit Card</Method>
-        </Payment>
     </Products>
 </Sales>
