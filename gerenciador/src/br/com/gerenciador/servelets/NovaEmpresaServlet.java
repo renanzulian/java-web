@@ -19,7 +19,7 @@ public class NovaEmpresaServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String nomeEmpresa = request.getParameter("nome");
 		PrintWriter out = response.getWriter();
 		out.print("<html><h1>" + nomeEmpresa + " cadastrada com sucesso.</h1></html>");
