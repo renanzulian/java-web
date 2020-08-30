@@ -7,6 +7,10 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathFactory;
 
 public class MainSystem {
 
@@ -36,5 +40,10 @@ public class MainSystem {
             System.out.println(product);
         }
 
+//        String path = "/Sales/Products/Product[2]";
+//        XPath xPath = XPathFactory.newInstance().newXPath();
+//        XPathExpression expression = xPath.compile(path);
+//
+//        NodeList products = (NodeList) expression.evaluate(document, XPathConstants.NODESET);
     }
 }
